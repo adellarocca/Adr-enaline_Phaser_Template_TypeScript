@@ -14,6 +14,7 @@ export default class SettingsScene extends Phaser.Scene {
 	private buttonSound!: Button;
 	private buttonCredits!: Button;
 	private buttonMusic!: Button;
+	private bannerCoin!: Button;
 
 	private containerCredits!: Phaser.GameObjects.Container;
 	private containerKeyboard!: Phaser.GameObjects.Container;
@@ -60,6 +61,9 @@ export default class SettingsScene extends Phaser.Scene {
 		this.buttonCredits.setOrigin(0.5, 0.5);
 		this.textCredits = this.add.text(offsetLeft+30+this.buttonCredits.width, 500, LanguageHelpers.getText('credits'), fontSubtitle);
 		this.textCredits.setOrigin(0, 0.5);
+
+        this.bannerCoin = new Button(this, GameParameters.worldParameters.centerX, GameParameters.worldParameters.height-60, 'banner-coin', this.clickInsertCoin);
+		this.bannerCoin.setOrigin(0.5, 1);		
 
 		SFXHelpers.update('sound', this.buttonSound, this.textSound);
 		SFXHelpers.update('music', this.buttonMusic, this.textMusic);
@@ -206,6 +210,11 @@ export default class SettingsScene extends Phaser.Scene {
 			default: {}
         }
     };
+
+	clickInsertCoin(){
+        SFXHelpers.play('click');
+        GameHelpers.redirectToExternalSite('https://www.paypal.me/T0dl4b4l');
+	};
 
 	clickSound() {
 		SFXHelpers.play('click');

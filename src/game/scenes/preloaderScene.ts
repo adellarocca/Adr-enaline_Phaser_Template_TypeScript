@@ -27,6 +27,8 @@ export default class PreloaderScene extends Phaser.Scene {
         this.load.image('title', 'ui/title.png');
         this.load.image('overlay', 'ui/overlay.png');
 
+        this.load.image('banner-coin', 'ui/banner-coin.png');
+
         this.load.image('clickme', 'game/target_colored_outline.png');
         this.load.image('particle', 'game/particle.png');
 
