@@ -39,7 +39,8 @@ var appShellFiles = [
   '/assets/ui/loading-background.png',
   '/assets/ui/logo_adr-enaline_vintage.png',
   '/assets/ui/overlay.png',
-  '/assets/ui/title.png'  
+  '/assets/ui/title.png',
+  '/assets/fork.png'  
 ];
 
 self.addEventListener('install', function(e) {
