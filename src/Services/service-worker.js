@@ -35,6 +35,7 @@ var appShellFiles = [
   '/assets/ui/button-sound-off.png',
   '/assets/ui/button-sound-on.png',
   '/assets/ui/button-start.png',
+  '/assets/ui/banner-coin.png',
   '/assets/ui/loader.png',
   '/assets/ui/loading-background.png',
   '/assets/ui/logo_adr-enaline_vintage.png',
