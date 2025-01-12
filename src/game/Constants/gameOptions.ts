@@ -2,6 +2,8 @@ export const GameOptions : any = {
 
     enablePWA           : true,
 
+    debugMode           : false,
+
     gameSize : {
         width           : 640,      // width of the game, in pixels
         height          : 1050       // height of the game, in pixels
