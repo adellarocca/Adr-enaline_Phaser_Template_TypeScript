@@ -4,10 +4,9 @@ Welcome to this Responsive template for web games created using the Phaser 3 gam
 
 See it online at: [adellarocca.github.io/Adr-enaline_Phaser_Template_TypeScript/](https://adellarocca.github.io/Adr-enaline_Phaser_Template_TypeScript/)
 
-
 ![Adr-enaline Phaser Template](./src/assets/screens/MainMenu-Screen.png)
 
-This template provides a solid foundation for creating web games, featuring a modern setup that integrates **TypeScript** and **Webpack**. It is inspired by the Enclave Phaser Template by Andrzej Mazur, with additional enhancements to support streamlined development workflows for developers of all levels.  
+This template provides a solid foundation for creating web games, featuring a modern setup that integrates **TypeScript** and **Webpack**. It is inspired by the [Enclave Phaser Template](https://github.com/EnclaveGames/Enclave-Phaser-Template) by Andrzej Mazur, with additional enhancements to support streamlined development workflows for developers of all levels.
 
 ## Features  
 - **Phaser 3 Integration**: A pre-configured Phaser 3 setup to get you started right away.  
