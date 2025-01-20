@@ -7,12 +7,12 @@ export default class BootScene extends Phaser.Scene {
     constructor() {
         super('Boot');
 
-        const WebFont = require('webfontloader');
-        WebFont.load({
-            custom: {
-                families: [ 'Freckle Face']
-            }
-        });        
+        // const WebFont = require('webfontloader');
+        // WebFont.load({
+        //     custom: {
+        //         families: [ 'Freckle Face']
+        //     }
+        // });        
     };
 
     preload() {

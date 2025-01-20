@@ -24,6 +24,8 @@ export default class PreloaderScene extends Phaser.Scene {
 			progress.fillRect(loadingBg.x-(loadingBg.width*0.5)+20, loadingBg.y-(loadingBg.height*0.5)+10, 540 * value, 25);
 		});
 
+        this.load.font('Freckle Face', 'fonts/FreckleFace-Regular.ttf');
+
         this.load.image('title', 'ui/title.png');
         this.load.image('overlay', 'ui/overlay.png');
 
@@ -84,17 +86,15 @@ export default class PreloaderScene extends Phaser.Scene {
         this.load.spritesheet('loader', 'ui/loader.png', {
             frameWidth: 45,
             frameHeight: 45
-        });
-
-        //this.load.bitmapFont('berlinFont', 'fonts/berlin.png', 'fonts/berlin.fnt');
+        });        
 
         this.load.audio('sound-click', ['sfx/select_001.ogg','sfx/select_001.mp3']);
         this.load.audio('music-theme', ['sfx/Italian_Mom.ogg', 'sfx/Italian_Mom.mp3']);
 
-        // dummy loading
+        // // dummy loading
         // for (let i = 0; i < 500; i++) {
         //     this.load.image('logo'+i, 'ui/dummy.png');
-        // }
+        //}
     };
     
     create() {
