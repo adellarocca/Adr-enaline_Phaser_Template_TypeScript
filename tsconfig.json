@@ -4,13 +4,12 @@
     "strict": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
-    "module": "es6",
-    "moduleResolution": "node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "target": "es5",
-    "allowJs": true,
-    "baseUrl": "."
+    "target": "es6",
+    "allowJs": true
   },
   "include": [
     "./index.d.ts",
