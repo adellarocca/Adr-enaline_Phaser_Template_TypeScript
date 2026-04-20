@@ -4,12 +4,16 @@
     "strict": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "ESnext",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "target": "es6",
-    "allowJs": true
+    "target": "es2020",
+    "lib": ["ES2020", "DOM"],
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck" : true,
+    "isolatedModules": true,
+    "allowJs": false
   },
   "include": [
     "./index.d.ts",
